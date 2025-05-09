@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "select_sort.h"
+#include "insert_sort.h"
 using namespace std;
 
 #define N 29
@@ -14,7 +14,7 @@ int main() {
         cout << "a[" << i << "] = " << a[i] << endl;
     }
     cout << "\nSorting process:\n";
-    selectSort(a, N);
+    insertSort(a, N);
     cout << "\nSorted array:\n";
     for (int i = 0; i < N; i++) {
         cout << "a[" << i << "] = " << a[i] << endl;
